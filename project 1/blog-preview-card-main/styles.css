@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree,sans-serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}
+
+.container{
+    margin: 160px auto;
+    background-color:hsl(0, 0%, 100%) ;
+    padding: 1rem;
+    border-radius: 1rem;
+    width:400px;
+    height: 550px;
+    box-shadow:  10px 11px 0px rgba(0,0,0,1);
+    border: 2px solid black;
+}
+
+
+.blog-image{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 1.5rem;
+}
+
+.blog-image img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.tags{
+    display: inline-block;
+    background-color: hsl(47, 79%, 58%);
+    margin-bottom: 0.8rem;
+    padding: 8px 14px;
+    border-radius: 0.42rem;
+    color:hsl(0, 0%, 7%);
+    font-weight: 500;
+
+}
+
+.publish-date{
+    font-weight: 500;
+    color :hsl(0, 0%, 7%);
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.intro{
+    font-weight: 800;
+    font-size: 1.4rem;
+    color:hsl(0, 0%, 7%);
+    margin-bottom : 1.2rem;
+}
+.description{
+    line-height: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.7rem;;
+}
+
+.user{
+    display: flex;
+    align-content: center;
+}
+.user img{
+width:2.5rem;
+height: 2.5rem;
+margin-right: 20px;
+
+}
+.user div {
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.intro:hover{
+    color:hsl(47, 88%, 63%); ;
+}
